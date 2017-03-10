@@ -29,4 +29,5 @@
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array Methods</a></li>
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object Methods</a></li>
   <li><a href="https://github.com/junior-devleague/deeper-objects">Deeper Objects</a></li>
+  <li><a href="https://www.w3schools.com/jsref/dom_obj_image.asp">Adding Image Elements</a></li>
 </ul>
