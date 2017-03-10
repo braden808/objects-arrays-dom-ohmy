@@ -12,20 +12,7 @@
 */
 
 
-var character = [
-  {
-    gender : 'boy',
-    shirt : 'red',
-    hobby : 'baseball',
-    name : 'Tommy'
-  },
-  {
-    gender : 'girl',
-    shirt : 'purple',
-    hobby : 'singing',
-    name : 'Lucy'
-  }
-];
+
 
 /*
 * Create image name
@@ -42,25 +29,6 @@ var character = [
 */
 
 
-function setImageName(data) {
-  // console.log(data);
-  var imageName = '';
-
-  for(var keys in data[0]){
-    // console.log('[keys]',[keys]);
-    // console.log('data[index][keys]',data[index][keys]);
-    if(keys === 'gender'){
-      imageName += data[0][keys] + '-';
-    }
-    if(keys === 'shirt'){
-      imageName += data[0][keys];
-    }
-  }
-  return imageName;
-}
-
-console.log('setImageName(character)',setImageName(character));
-setImageName(character);
 
 
 /*
@@ -76,15 +44,7 @@ setImageName(character);
 * @invoke displays character image with the correct gender and color shirt
 */
 
-function displayCharacter(imageName) {
-  var image = document.createElement("IMG");
-  image.setAttribute("src", "./assets/" + imageName + ".png");
 
-  var idEl = document.getElementById('person');
-  idEl.appendChild(image);
-}
-
-displayCharacter(setImageName(character));
 
 /*
 * Adding your character's hobby
@@ -98,19 +58,7 @@ displayCharacter(setImageName(character));
 * @return the character's hobby
 */
 
-function hobby(data) {
-  // var className = data[0].hobby;
-  var className = '';
 
-  for (var keys in data[0]){
-    if(keys === 'hobby'){
-      className += data[0][keys];
-    }
-  }
-  return className;
-}
-console.log('hobby(character)',hobby(character));
-hobby(character);
 
 /*
 * Display your character's hobby
@@ -122,9 +70,3 @@ hobby(character);
 * @invoke displayHobby and watch your character enjoy their hobby
 */
 
-function displayHobby(className) {
-  var containerEl = document.getElementById('container');
-  containerEl.style.backgroundImage = "url('./assets/"+className+".png')";
-}
-
-displayHobby(hobby(character));

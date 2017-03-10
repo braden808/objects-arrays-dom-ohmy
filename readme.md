@@ -1,5 +1,5 @@
 <h1>Objects, Arrays and DOM -- Oh my</h1>
-<p>Students will create an array of object for a character. Using Array and Object methods they will add values to display the character through the DOM.</p>
+<p>Students will create a 1D array of object for a character. Using Array and Object methods they will add values to display the character through the DOM.</p>
 
 <h4>Required</h4>
 <p>Tools</p>
@@ -23,6 +23,13 @@
   <li>Create your character</li>
   <li>Good luck!</li>
 </ol>
+<p>Stretch Goal</p>
+<ol>
+  <li>Since you only added one character WHY NOT BOTH!?</li>
+  <li>Add your new character to a new container2</li>
+  <li>Need more of a challenge? Add your new character using only Javascript</li>
+  <li>Let's also give them names. Added their named to the h1</li>
+</ol>
 
 <h4>Resource links</h4>
 <ul>
@@ -30,4 +37,5 @@
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object Methods</a></li>
   <li><a href="https://github.com/junior-devleague/deeper-objects">Deeper Objects</a></li>
   <li><a href="https://www.w3schools.com/jsref/dom_obj_image.asp">Adding Image Elements</a></li>
+  <li><a href="https://www.w3schools.com/jsref/prop_style_backgroundimage.asp">Adding Styles</a></li>
 </ul>
