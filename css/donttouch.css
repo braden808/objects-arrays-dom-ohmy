@@ -1,4 +1,4 @@
-.container{
+#container{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -22,7 +22,7 @@ h1{
   text-align: center;
 }
 
-.person{
+#person{
   width: 250px;
   height: 400px;
   border: 1px solid black;
