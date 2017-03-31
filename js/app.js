@@ -10,10 +10,18 @@
 * name: ''
 *
 */
+var character = [
+	{
+		gender: "boy",
+		shirt: "blue"
+	},
+	{
+		hobby: "baseball",
+		name: "Pablo"
+	}
+];
 
-
-
-
+setImageName(character);
 /*
 * Create image name
 * Create a function named setImageName that takes one parameter
@@ -27,9 +35,21 @@
 * @parameter data
 * @return imageName
 */
+function setImageName(set) {
+	var imageName = "";
+		for (var key in set){
+		//console.log(key);
+		//console.log(set[key]);
+		if (key === "0"){
+			imageName += set[key].gender +"-"
+		}
+		if (key === "1"){
+			imageName += set[key].name
+		}
 
-
-
+	}
+	console.log(imageName);
+};
 
 /*
 * Display Character
